@@ -1,7 +1,6 @@
-# Sample for 'env.toml'
-
 [Database]
-name = 'bot'
+#enabled = true
+#name = 'DonationBot1'
 #username = 'root'
 #password = ''
 #host = 'localhost'

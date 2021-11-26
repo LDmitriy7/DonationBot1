@@ -13,7 +13,9 @@ class Bot:
 class Database:
     _data = _env['Database']
 
-    name = _data['name']
+    enabled = _data.get('enabled', False)
+
+    name = _data.get('name')
     username = _data.get('username')
     password = _data.get('password')
     host = _data.get('host', 'localhost')
