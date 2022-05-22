@@ -13,8 +13,6 @@ async def on_startup(_):
     import middlewares
     import tasks
 
-    dp.bot.send_poll()
-
     filters.setup()
     handlers.setup()
     middlewares.setup()
