@@ -8,6 +8,7 @@ class Bot:
 
     token = _data['token']
     skip_updates = _data.get('skip_updates', False)
+    plug = _data.get('plug')
 
 
 class Database:

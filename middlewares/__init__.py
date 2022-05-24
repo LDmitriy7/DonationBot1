@@ -1,2 +1,6 @@
+from loader import dp
+from .plug import Plug
+
+
 def setup():
-    pass
+    dp.setup_middleware(Plug())

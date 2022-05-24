@@ -10,6 +10,7 @@
 [Bot]
 token = ''
 #skip_updates = true
+#plug = true
 
 [Users]
 admins_ids = [724477101]
