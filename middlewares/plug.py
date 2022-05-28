@@ -10,5 +10,5 @@ class Plug(BaseMiddleware):
     @staticmethod
     async def on_pre_process_message(msg: types.Message, *_):
         if config.Bot.plug:
-            await msg.answer('Бот временно не работает...')
+            await msg.answer('Настраиваем платежную систему...')
             raise CancelHandler
